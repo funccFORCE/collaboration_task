@@ -48,3 +48,13 @@ int swap_shreyashi(int a, int b)
 	printf("\nAfter swap a=%d b=%d",a,b);    
 	return 0;  
 } 
+
+int swap2_Radhika(int a, int b)
+{    
+	printf("Before swap a=%d b=%d",a,b);      
+	int temp=a;   
+	a=b; 
+	b=temp; 
+	printf("\nAfter swap a=%d b=%d",a,b);    
+	return 0;  
+} 
