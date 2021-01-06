@@ -86,6 +86,7 @@ int evenodd_ananya()
 	return 0;
 
 }
+
 int factorial(int n){
 	if(n==0 or n==1)return 1;
 	
@@ -93,4 +94,25 @@ int factorial(int n){
 }
 
 
+
+
+
+
+int fibonacci()
+	{
+    int i, n, t1 = 0, t2 = 1, nextTerm;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
+    printf("Fibonacci Series: ");
+
+    for (i = 1; i <= n; ++i) 
+	{
+        printf("%d, ", t1);
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+
+    return 0;
+}
 
