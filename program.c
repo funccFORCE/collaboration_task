@@ -7,6 +7,10 @@ int avg(int,int);
 int apwerb_StutiKandpal(int,int);
 int swap_shreyashi(int,int);
 int swap2_Radhika(int,int);
+
+int prime_ayushi(int);
+
+
 int factorial(int);
 
 int main(){
@@ -16,7 +20,11 @@ int main(){
 	printf("The product of these numbers :%d",mul(10,10));
 	printf("Remainder will be :%d",mod(10,2));
 	printf("average is:%d",avg(5,5));
+
+	printf("The number given is :",prime_ayushi(5));
+
 	printf("Factorial of 5 is",factorial(5));
+
 		
 }
 
@@ -87,6 +95,25 @@ int evenodd_ananya()
 
 }
 
+
+int prime_ayushi(int a)
+{
+	int i,j=0;
+	for (i=2 ;i<a ;i++)
+	{
+		if (a%i==0)
+		{
+			j=1;
+			break;
+                }
+	}
+	if (j==0)
+		printf(" Prime");
+	else
+		printf(" Not Prime");
+	return 0;
+}	
+
 int factorial(int n){
 	if(n==0 or n==1)return 1;
 	
@@ -115,4 +142,5 @@ int fibonacci()
 
     return 0;
 }
+
 
