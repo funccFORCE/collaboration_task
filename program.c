@@ -38,3 +38,13 @@ int mod(int a, int b)
 	return result;
 
 }
+
+int swap_shreyashi(int a, int b)
+{    
+	printf("Before swap a=%d b=%d",a,b);      
+	a=a+b;   
+	b=a-b; 
+	a=a-b; 
+	printf("\nAfter swap a=%d b=%d",a,b);    
+	return 0;  
+} 
