@@ -9,6 +9,7 @@ int main(){
 	
 	printf("The sum of these numbers :%d",sum(10,10));
 	printf("The product of these numbers :%d",mul(10,10));
+	printf("Remainder will be :%d",mod(10,2));
 	
 	
 }
@@ -27,6 +28,13 @@ int mul(int a, int b)
 	return result;
 }
 
+
 int apwerb_StutiKandpal(int a, int b){
 	return pow(a,b);
+}
+int mod(int a, int b)
+{
+	int result =a%b;
+	return result;
+
 }
