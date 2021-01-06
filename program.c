@@ -4,6 +4,9 @@
 int sum(int ,int);
 int mul(int,int);
 int avg(int,int);
+int apwerb_StutiKandpal(int,int);
+int swap_shreyashi(int,int);
+int swap2_Radhika(int,int);
 
 int main(){
 	printf("hello funccforce members");
@@ -33,6 +36,7 @@ int mul(int a, int b)
 int apwerb_StutiKandpal(int a, int b){
 	return pow(a,b);
 }
+
 int mod(int a, int b)
 {
 	int result =a%b;
