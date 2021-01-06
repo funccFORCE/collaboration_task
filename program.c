@@ -70,6 +70,11 @@ int swap2_Radhika(int a, int b)
 	return 0;  
 } 
 
+float SI_Priyanshu(float p,int t,float r) //time should be in months
+{
+	return((p*r*t)/100);//returning simple interst
+}
+
 int evenodd_ananya()
 {
 	int no;
@@ -78,4 +83,5 @@ int evenodd_ananya()
 	else
 		printf("num is odd");
 	return 0;
+
 }
