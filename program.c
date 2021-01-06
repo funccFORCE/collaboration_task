@@ -85,3 +85,14 @@ int evenodd_ananya()
 	return 0;
 
 }
+
+int maxmin_amisha()
+{
+	int a, b;
+	if(a>b)
+		printf("%d is greater",a);
+	else
+		printf("%d is greater",b);
+	return 0;
+
+}
