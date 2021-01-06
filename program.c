@@ -38,3 +38,12 @@ int mod(int a, int b)
 	return result;
 
 }
+int swap2_RadhikaAgrawal(int a, int b) 
+{ 
+    printf("\nBefore Swapping: a = %d, b = %d", a, b); 
+    int temp = a; 
+    a = b; 
+    b = temp; 
+    printf("\nAfter Swapping: a = %d, b = %d", a, b); 
+    return 0; 
+} 
