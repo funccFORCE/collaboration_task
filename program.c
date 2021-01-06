@@ -44,3 +44,14 @@ int avg(int a,int b)
 {
 	return ((a+b)/2);
 }
+
+int swap_shreyashi(int a, int b)
+{    
+	printf("Before swap a=%d b=%d",a,b);      
+	a=a+b;   
+	b=a-b; 
+	a=a-b; 
+	printf("\nAfter swap a=%d b=%d",a,b);    
+	return 0;  
+} 
+
