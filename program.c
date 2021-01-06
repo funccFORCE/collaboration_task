@@ -8,6 +8,7 @@ int apwerb_StutiKandpal(int,int);
 int swap_shreyashi(int,int);
 int swap2_Radhika(int,int);
 
+
 int main(){
 	printf("hello funccforce members");
 	
@@ -69,3 +70,12 @@ int swap2_Radhika(int a, int b)
 	return 0;  
 } 
 
+int evenodd_ananya()
+{
+	int no;
+	if(no%2==0)
+		printf("num is even");
+	else
+		printf("num is odd");
+	return 0;
+}
