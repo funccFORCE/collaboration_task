@@ -26,3 +26,7 @@ int mul(int a, int b)
 	int result =a*b;
 	return result;
 }
+
+int apwerb_StutiKandpal(int a, int b){
+	return pow(a,b);
+}
