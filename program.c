@@ -7,7 +7,7 @@ int avg(int,int);
 int apwerb_StutiKandpal(int,int);
 int swap_shreyashi(int,int);
 int swap2_Radhika(int,int);
-
+float SI_Priyanshu(float,int,float);
 int prime_ayushi(int);
 
 
@@ -24,6 +24,8 @@ int main(){
 	printf("The number given is :",prime_ayushi(5));
 
 	printf("Factorial of 5 is",factorial(5));
+	
+	printf("SI of Principal Amount 30,000 at rate of 5% for 6 months is %f",SI_Priyanshu(30000,6,5));
 
 		
 }
