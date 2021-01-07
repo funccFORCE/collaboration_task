@@ -12,6 +12,8 @@ int prime_ayushi(int);
 
 
 int factorial(int);
+int palindrome_nandini(int);
+
 
 int main(){
 	printf("hello funccforce members");
@@ -24,6 +26,8 @@ int main(){
 	printf("The number given is :",prime_ayushi(5));
 
 	printf("Factorial of 5 is",factorial(5));
+	printf("Check whether the number is palindrome or not");
+	palindrome_nandini(1221);
 
 		
 }
@@ -144,3 +148,22 @@ int fibonacci()
 }
 
 
+int palindrome_nandini(int x)
+{
+	int rev=0,n,r;
+	n=x;
+	while(x>0)
+	{
+		r=x%10;
+		rev=rev*10+r;
+		x=x/10;
+	}
+	if (rev==n)
+	{
+		printf("yes ,it is a palindrome");
+	}
+	else{
+		printf("no,it is not");
+	}
+	return 0;
+}
