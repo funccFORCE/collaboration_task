@@ -9,7 +9,7 @@ int swap_shreyashi(int,int);
 int swap2_Radhika(int,int);
 float SI_Priyanshu(float,int,float);
 int prime_ayushi(int);
-
+void array_haripriya();
 
 int factorial(int);
 int palindrome_nandini(int);
@@ -33,7 +33,7 @@ int main(){
 	
 	printf("SI of Principal Amount 30,000 at rate of 5% for 6 months is %f",SI_Priyanshu(30000,6,5));
 
-
+    array_haripriya();
 		
 }
 
@@ -189,4 +189,40 @@ int maxmin_amisha()
         printf("Both are equal");
     }
     return 0;
+}
+void array_haripriya()
+{   
+
+    int size, i, find, found=0;
+    // (enter the size of the array)
+    printf("Size of the array: ");
+    scanf("%d", &size);
+
+    int arr[size];
+    // (enter the elemnts of the array)
+    printf("Enter elements of array: ");
+    for(i=0; i<size; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    printf("\nEnter element to search: \n");
+    scanf("%d", &find);
+    for(i=0; i<size; i++)
+    {
+       
+        if(arr[i] == find)
+        {
+            found++;
+        }
+    }
+    if(found !=0)
+    {
+    printf("The entered element is present in the array and it appears %d times.", found);
+    }
+    else
+    {
+        printf("The entered element is not present in the array.");
+    }
+
 }
